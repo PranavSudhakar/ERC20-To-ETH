@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "minAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "swapEtherToToken",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"pranav.sol": "EtherToTokenSwapper"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"pranav.sol": {
+			"keccak256": "0x02229d106146e74a9580f91a76e26fb847c8eef9393e362346b23fca79b97aa6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8f8521384c62c5393c901a9c78119e56265948f33744804a5176d5932dce6dc4",
+				"dweb:/ipfs/QmZX1UbSnHDcRq3Pkg9P5ALvMxm81Vy3z6SuiNCe7412wu"
+			]
+		}
+	},
+	"version": 1
+}
